@@ -60,11 +60,19 @@ export default class App extends Component{
 
     render = () =>
     
-  <div>
+  <div className="container">
+  <div className="row">
 
+  <div className="col-sm-6">
   <ToDoBanner name={this.state.userName} tasks={this.state.todoItems}/>
-  
+  </div>
+   
+  <div className="col-sm-6">
   <ToDoCreator callback={this.createNewTodo}/>
+  </div>
+  </div>
+  
+
   <table className="table table-striped table-bordered">
   <thead> 
   <tr><th>Description</th><th>Done</th></tr>

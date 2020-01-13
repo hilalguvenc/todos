@@ -17,10 +17,9 @@ export default class ToDoCreator extends Component{
     }
 
     render =()=>
-    <div>
+    <div className="col-sm-6">
     <input  value={this.state.newItemText} onChange ={this.updateNewTextValue} />
     <button onClick={this.createnewToDo}>Add</button>
-
     </div>
 
 }
