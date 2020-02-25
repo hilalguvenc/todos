@@ -1,3 +1,3 @@
 # To Do
-Simple To Do application
+A simple To Do application.
 
